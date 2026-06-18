@@ -1,0 +1,21 @@
+{
+    "backup_mode": true,
+    "backup_folder": "_分类备份",
+    "large_file_threshold": 104857600,
+    "exclude_files": ["desktop.ini", "Thumbs.db", ".DS_Store"],
+    "exclude_extensions": [".lnk"],
+    "log_file": "logs/classification_log.json",
+    "stats_file": "logs/stats.json",
+    "dark_mode": false,
+    "size_categories": {
+        "小文件_1MB以下": 1048576,
+        "中文件_1M-100M": 104857600,
+        "大文件_100MB以上": 1048576000
+    },
+    "time_categories": {
+        "今日文件": 0,
+        "本周文件": 7,
+        "上月文件": 30,
+        "更早归档": 9999
+    }
+}
